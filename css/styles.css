@@ -47,7 +47,11 @@ margin: 0;
 
 
 /* --------------mob-header---------- */
+@media screen and (max-width: 767px) {
 
+.menu{ display: none;
+   
+}}
 
 /* @media screen and (max-width: 768px) {
 .mob-header{
