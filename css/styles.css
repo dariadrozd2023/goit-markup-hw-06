@@ -413,6 +413,12 @@ body {font-family: "Roboto", sans-serif;
             width: 428px;
         }   
          
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    
+  }
+
 }
 
 
@@ -783,10 +789,6 @@ color: #FFFFFF;
 
 
 
-@media screen and (max-width:479px){
-    .mainpage-hero
-    { background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../images/backgraund/Dark-bg_mob.jpg);}
-}
 .mainpage-hero{
    
     /* max-width: 1440px;  */
@@ -803,6 +805,10 @@ color: #FFFFFF;
       
 }
 
+@media screen and (max-width:479px){
+    .mainpage-hero
+    { background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../images/backgraund/Dark-bg_mob.jpg);}
+}
 
 .button-hero{ 
     
@@ -1486,7 +1492,11 @@ transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
-
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    
+  }
 
     .mainpage-hero
     {background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../images/backgraund/people-office\ 1deck_top.jpg);
